@@ -105,5 +105,9 @@
     };
     return map;
      }
-  
+     
+  //for list
+       List<CategoryModel> categoryList = categories.map((c) => new CategoryModel.parseForHomeScreen(c)).toList();
+  //for map 
+      SearchModelAddress search = new SearchModelAddress.fromMapForLatitudeLongitude(mGeometry);
   
