@@ -110,4 +110,6 @@
        List<CategoryModel> categoryList = categories.map((c) => new CategoryModel.parseForHomeScreen(c)).toList();
     //for map 
       SearchModelAddress search = new SearchModelAddress.fromMapForLatitudeLongitude(mGeometry);
+  ///flutter customer demo
   
+  https://drive.google.com/open?id=1GFOyq-dCFHdw9CD_BSqXCcTmckzwmsQr
